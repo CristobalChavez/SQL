@@ -1,0 +1,19 @@
+CREATE TABLE store (id integer PRIMARY KEY, product TEXT, stock INTEGER, sold INTEGER, price INTEGER);
+INSERT INTO store VALUES (1, "shirts", 10, 8, 40.00);
+INSERT INTO store VALUES (2, "pants", 10, 5, 30.00);
+INSERT INTO store VALUES (3, "shoes", 25, 17, 60.00);
+INSERT INTO store VALUES (4, "underwear", 66, 66, 15.00);
+INSERT INTO store VALUES (5, "socks", 100, 77, 4.00);
+INSERT INTO store VALUES (6, "hats", 200, 189, 20.00);
+INSERT INTO store VALUES (7, "glasses", 35, 22, 200.00);
+INSERT INTO store VALUES (8, "gloves", 300, 22, 20.00);
+INSERT INTO store VALUES (9, "jackets", 60, 47, 30.00);
+INSERT INTO store VALUES (10, "robes", 20, 11, 25.00);
+INSERT INTO store VALUES (11, "bras", 50, 37, 30.00);
+INSERT INTO store VALUES (12, "towels",40, 37, 10.00);
+INSERT INTO store VALUES (13, "blankets",15, 7, 20.00);
+INSERT INTO store VALUES (14, "slippers", 25, 20, 25.00);
+INSERT INTO store VALUES (15, "scarfs", 30, 15, 20.00);
+
+SELECT * FROM store
+ORDER BY sold 
